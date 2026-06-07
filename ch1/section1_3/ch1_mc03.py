@@ -6,6 +6,7 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 # 変数に"こんにちは"を代入する
-
+greeting="こんにちわ"
 
 # チャットに"こんにちは"を表示する
+mc.postToChat(greeting)

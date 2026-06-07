@@ -7,3 +7,4 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 # print 関数を使って、変数mcの中身を表示する
+print(mc)
