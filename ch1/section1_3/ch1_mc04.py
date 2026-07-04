@@ -6,6 +6,7 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 # プレーヤーの位置情報を取得する
-
+pos=mc.player.getTilePos()
 
 # 位置情報を表示する
+print(pos)
