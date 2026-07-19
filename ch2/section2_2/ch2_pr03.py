@@ -3,9 +3,13 @@
 f-stringを使って"私の名前は〇〇〇〇です"という形式でフルネームを出力しましょう。
 """
 # 変数last_nameに名字を代入する
-
+last_name = "Ito"
 
 # 変数first_nameに名前を代入する
-
+first_name = "utano"
 
 # f-stringを使って変数を埋め込んで出力する
+print(f"{last_name  first_name}")
+print(f"{last_name}　{first_name} 宛")
+
+#print(last_name + first_name)

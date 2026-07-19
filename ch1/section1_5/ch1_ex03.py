@@ -16,9 +16,10 @@ day=24*hour
 print(day)
 
 # 変数current_timeに現在の秒数を計算して代入する
-current_time=hour*10+minute*59
+current_time=hour*15+minute*42
 
 # 変数remaining_secondsに、dayとcurrent_timeを使って、今日が終わるまでの残り秒数を計算して代入する
-
+remaining_seconds=day-current_time
 
 # print関数を使ってremaining_secondsを表示する
+print(remaining_seconds)

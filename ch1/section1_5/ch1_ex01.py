@@ -6,7 +6,8 @@
 name="utano"
 
 # 変数ageに年齢を代入する
-age=9
+age = 9.333333
+type(age)
 
 # 変数fav_foodに好きな食べ物を代入する
 fav_food="melon"
@@ -19,3 +20,9 @@ print(name)
 print(age)
 print(fav_food)
 print(hobby)
+print(type(age))
+
+
+
+
+

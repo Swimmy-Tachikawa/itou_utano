@@ -8,6 +8,7 @@ mc = Minecraft.create()
 
 # ワールドの端まで移動したあと、以下を実行する
 # プレイヤーの位置情報を取得する
-
+pos=mc.player.getTilePos()
 
 # y座標をチャットに出力する
+mc.postToChat(pos.y)
