@@ -9,7 +9,7 @@ last_name = "Ito"
 first_name = "utano"
 
 # f-stringを使って変数を埋め込んで出力する
-print(f"{last_name  first_name}")
+print(f"{last_name}  {first_name}")
 print(f"{last_name}　{first_name} 宛")
 
 #print(last_name + first_name)
