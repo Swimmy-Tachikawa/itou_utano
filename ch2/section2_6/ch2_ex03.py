@@ -3,3 +3,5 @@
 出力：
 Swimmy太郎です
 """
+name="swimmy太郎"
+print(name + "です")
