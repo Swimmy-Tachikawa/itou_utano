@@ -8,12 +8,13 @@ mc = Minecraft.create()
 
 
 # 関数「jump」を定義する。引数にpowerを用意する。
-
+def jump(power):
     # mc.player.getTilePos()を使って、プレイヤーの位置情報を取得し、変数pos に代入する
-
+    pos=mc.player.getTilePos()
 
     # mc.player.setTilePos()を使ってプレイヤーの位置を変更する。y座標を + power すると、power分だけ上に移動する
-
+    mc.player.setTilePos(pos.x,pos.y+power,pos.z)
 
 
 # 引数を指定してjump関数を実行する
+jump(1)
