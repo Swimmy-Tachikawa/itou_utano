@@ -5,4 +5,7 @@
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create()
-
+x=int(input("x"))
+y=int(input("y"))
+z=int(input("z"))
+mc.player.setTilePos(x,y,z)

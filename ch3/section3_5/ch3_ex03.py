@@ -6,15 +6,14 @@
 
 
 # 関数entry_feeを定義する
-
+def entry_fee(adult,children):
     # 大人と子どもの合計金額を計算し、戻り値として返す
-
-
-
-
-# シェルから大人の人数と子どもの人数を入力させる
-
-
-
+    adultsum=adult*630
+    childrensum=children*315
+    return adultsum+childrensum
+     
+# シェルから大人の人数と子どもの人数を入力させ
+adult=int(input("adult"))
+children=int(input("children"))
 # 関数entry_feeを呼び出して出力する。引数には入力された人数を指定する。
-
+print("合計金額",entry_fee(adult,children))

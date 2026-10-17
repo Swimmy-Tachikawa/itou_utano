@@ -5,3 +5,10 @@
 円の面積 = 半径 × 半径 × 円周率
 です。円周率は3.14で計算してください。
 """
+def circle_area(radius):
+    circle=radius*radius*3.14
+    print(circle)
+
+x=int(input())
+circle_area(x)
+
