@@ -10,4 +10,9 @@ text_int=int(text)
 print(text_int,type(text_int))
 
 # 浮動小数点数型に変換する
+<<<<<<< HEAD
 text_float=
+=======
+text_float=float(text_int)
+print(text_float,type(text_float))
+>>>>>>> origin/main

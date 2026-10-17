@@ -7,19 +7,19 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 # mc.player.getTilePos()を使ってプレイヤーの位置情報を取得し、変数posに代入する
-
+pos=mc.player.getTilePos()
 
 # mc.setBlock()を使って、となりの座標に1段目の原木ブロックを置く
-
+mc.setBlock(pos.x+1,pos.y,pos.z,17)
 
 # mc.setBlock()を使って、1段目の上に、2段目の原木ブロックを置く
-
+mc.setBlock(pos.x+1,pos.y+1,pos.z,17)
 
 # mc.setBlock()を使って、2段目の上に、3段目の原木ブロックを置く
-
+mc.setBlock(pos.x+1,pos.y+2,pos.z,17)
 
 # mc.setBlock()を使って、3段目の上に、4段目の原木ブロックを置く
-
+mc.setBlock(pos.x+1,pos.y+3,pos.z,17)
 
 # mc.setBlock()を使って、4段目の上に、5段目の原木ブロックを置く
-
+mc.setBlock(pos.x+1,pos.y+4,pos.z,17)

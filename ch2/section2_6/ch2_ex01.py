@@ -2,3 +2,9 @@
 シェルから数字を2回入力させて、その数字どうしをかけ算し、答えを出力してみましょう。
 input関数の戻り値はstr型なので、一度int型に変換しなければいけません。
 """
+
+number=int(input("数字を入力してください"))
+number2=int(input("数字を入力してください"))
+
+kotae=number * number2
+print(kotae)
