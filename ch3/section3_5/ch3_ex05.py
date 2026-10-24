@@ -6,3 +6,8 @@
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create()
+def set_block_id(block_id):
+    pos=mc.player.getTilePos()
+    mc.setBlock(pos.x,pos.y,pos.z,block_id,1
+    )
+set_block_id(46)
